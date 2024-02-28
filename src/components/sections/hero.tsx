@@ -15,7 +15,7 @@ export default function Hero() {
     };
   }, []);
   return (
-    <div className="bg-hero-pattern min-h-screen font-barlow bg-no-repeat bg-cover  ">
+    <div className="hero-bg min-h-screen font-barlow bg-no-repeat bg-cover  ">
       <div className="">
         <div
           className={`fixed z-10 w-full max-lg:bg-white`}
