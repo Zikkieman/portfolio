@@ -3,6 +3,7 @@ import { AppDispatch, useAppSelector } from "../../redux/store";
 import { changeMenuToggler } from "../../redux/features/toggleSlice";
 import { MenuButton } from "./menu";
 import { useState } from "react";
+import Theme from "../theme/theme";
 
 interface PropsType {
   onScroll: boolean;
@@ -21,17 +22,17 @@ export default function NavBar({ onScroll }: PropsType) {
   return (
     <div className="">
       <div
-        className={`flex justify-between  py-5 max-lg:py-2 relative ${
+        className={`flex justify-between  py-5 max-lg:py-2 relative dark:text-white ${
           onScroll ? "text-black" : "text-white"
         } `}
       >
         <div className="flex-1 flex items-center">
-          <p className=" font-medium text-[40px] max-lg:text-[30px] max-lg:text-black">
+          <p className=" font-medium text-[40px] max-lg:text-[30px] max-lg:text-black dark:text-white">
             EazyDev
           </p>
         </div>
 
-        <div className="flex gap-x-10 justify-between items-center text-xl font-medium max-lg:hidden">
+        <div className="flex gap-x-8 justify-between items-center text-xl font-medium max-lg:hidden">
           <div onClick={() => changeMenuHandler(1)} className="cursor-pointer">
             <p className={`${toggleMenu === 1 && "text-[#fb503b]"}`}>Home</p>
           </div>
@@ -55,20 +56,26 @@ export default function NavBar({ onScroll }: PropsType) {
           <div className="bg-[#fb503b] py-2 px-5 rounded-full text-white">
             <p>Download CV</p>
           </div>
+          <div>
+            <Theme onScroll={onScroll} />
+          </div>
         </div>
-        <div className="lg:hidden flex justify-center items-center">
+        <div className="lg:hidden flex justify-center items-center ">
           <MenuButton
             onTap={setOpenMenu}
             onClick={setIsMenuOpen}
             onOpen={isMenuOpen}
           />
+          <div className="ml-5 flex items-center">
+            <Theme onScroll={onScroll} />
+          </div>
         </div>
 
         {/* menuNavbar */}
       </div>
       {openMenu && (
         <div className="">
-          <div className="flex flex-col gap-y-5 text-xl font-medium border-t-[1px] py-5 mx-[-40px] px-10 menu-drawer">
+          <div className="flex flex-col gap-y-5 text-xl font-medium border-t-[1px] py-5 mx-[-40px] px-10 menu-drawer dark:text-white">
             <div
               onClick={() => {
                 setOpenMenu(false), setIsMenuOpen(false);

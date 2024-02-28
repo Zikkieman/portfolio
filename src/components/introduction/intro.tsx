@@ -63,7 +63,7 @@ export default function Intro() {
           Skills are the only luggage you can carry with you that doesn't weigh
           you down.
         </p>
-        <div className="flex gap-x-10 mt-5 max-[900px]:justify-center">
+        <div className="flex gap-x-10 mt-5 max-[900px]:justify-center relative z-10">
           <button className="px-6 text-[18px] font-semibold py-3 bg-[#142EB5] rounded-full hover:bg-[#fb503b]">
             Get a quote
           </button>

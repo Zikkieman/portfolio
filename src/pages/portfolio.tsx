@@ -7,7 +7,7 @@ export default function LandingPage() {
       <div>
         <Hero />
       </div>
-      <div className="px-72  max-[1600px]:px-40 max-[1300px]:px-10 max-[500px]:px-3">
+      <div className="px-72  max-[1600px]:px-40 max-[1300px]:px-10 max-[500px]:px-3 dark:bg-[#252439]">
         <Values />
       </div>
     </div>

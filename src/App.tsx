@@ -20,12 +20,12 @@ function App() {
   }, []);
   return (
     <div className="relative">
-      {/* <div
-        className="absolute border-2 border-[#fb503b] w-[40px] h-[40px] rounded-full transition justify-center items-center flex z-20"
+      <div
+        className="absolute border-2 border-[#fb503b] w-[40px] h-[40px] rounded-full transition justify-center items-center flex z-[10px]"
         id="mover"
       >
         <div className="w-[5px] h-[5px] bg-[#fb503b] rounded-full"></div>
-      </div> */}
+      </div>
       <LandingPage />
     </div>
   );

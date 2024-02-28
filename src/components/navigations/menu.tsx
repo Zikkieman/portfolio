@@ -13,9 +13,9 @@ export const MenuButton = ({ onTap, onClick, onOpen }: PropsType) => {
   return (
     <>
       <div className="menu" onClick={handleOpen}>
-        <div className={onOpen ? "bar1-active" : "bar1"} />
-        <div className={onOpen ? "bar2-active" : "bar2"} />
-        <div className={onOpen ? "bar3-active" : "bar3"} />
+        <div className={`${onOpen ? "bar1-active" : "bar1"}  dark:bg-white`} />
+        <div className={`${onOpen ? "bar2-active" : "bar2"}  dark:bg-white`} />
+        <div className={`${onOpen ? "bar3-active" : "bar3"}  dark:bg-white`} />
       </div>
     </>
   );
