@@ -15,7 +15,7 @@ export default function Hero() {
     };
   }, []);
   return (
-    <div className="hero-bg min-h-screen font-barlow bg-no-repeat bg-cover  ">
+    <div className="hero-bg min-h-screen font-barlow bg-no-repeat bg-cover pb-10 ">
       <div className="">
         <div
           className={`fixed z-10 w-full max-lg:bg-white`}
@@ -28,7 +28,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="pt-40 px-72  max-[1600px]:px-40 max-[1300px]:px-10 max-[500px]:px-3">
+      <div className="pt-48 px-72  max-[1600px]:px-40 max-[1300px]:px-10 max-[500px]:px-3">
         <Intro />
       </div>
     </div>

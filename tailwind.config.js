@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         barlow: ["barlow", "sans-serif"],
         sans: ["Open Sans", "sans - serif"],
+        poppins: ["Poppins", "sans-serif "],
       },
       backgroundImage: {
         "hero-pattern": "url('./src/assets/images/hero-bg.jpg')",
