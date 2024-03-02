@@ -25,7 +25,7 @@ export default function About() {
           <p className="font-barlow font-semibold text-[20px] text-[#FB503B]">
             I'm a Developer
           </p>
-          <p className="font-barlow text-[35px] font-semibold inline-block max-w-[400px] mb-10 dark:text-white">
+          <p className="font-barlow text-[35px] max-sm:text-[25px] font-semibold inline-block max-w-[400px] mb-10 dark:text-white ">
             I Develop Application that Help People
           </p>
           <p className="mb-10 font-poppins font-normal text-[#54545f] text-[18px] dark:text-[#AAAABA]">

@@ -1,5 +1,6 @@
 import About from "../components/sections/about";
 import Hero from "../components/sections/hero";
+import SkillRating from "../components/sections/skill-rating";
 import Values from "../components/sections/values";
 
 export default function LandingPage() {
@@ -14,6 +15,9 @@ export default function LandingPage() {
         </div>
         <div>
           <About />
+        </div>
+        <div>
+          <SkillRating />
         </div>
       </div>
     </div>
