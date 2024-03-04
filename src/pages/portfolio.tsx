@@ -1,5 +1,6 @@
 import About from "../components/sections/about";
 import Hero from "../components/sections/hero";
+import Services from "../components/sections/services";
 import SkillRating from "../components/sections/skillsRating";
 import Values from "../components/sections/values";
 
@@ -19,6 +20,7 @@ export default function LandingPage() {
         <div>
           <SkillRating />
         </div>
+        <Services />
       </div>
     </div>
   );
