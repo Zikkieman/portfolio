@@ -1,5 +1,3 @@
-// import Progress from "../skill-progress/Progress";
-
 import Progress from "../skillProgress/progress";
 
 export default function SkillRating() {
