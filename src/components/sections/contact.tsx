@@ -53,7 +53,7 @@ export default function Contact() {
               ></textarea>
               <button
                 type="submit"
-                className="bg-[#fb503b] font-barlow font-semibold text-white py-3 rounded-lg text-[18px] transition-all hover:translate-y-[-3px] duration-500"
+                className="bg-[#fb503b] font-barlow font-semibold text-white py-3 rounded-lg text-[18px] transition-all hover:bg-white hover:text-black hover:translate-y-[-3px] duration-500 "
               >
                 Submit Message
               </button>
