@@ -28,8 +28,8 @@ export default function Contact() {
 
   return (
     <div>
-      <div className="bg-[#0B1C77] py-24 px-16  rounded-2xl">
-        <div className="flex" ref={divRef}>
+      <div className="bg-[#0B1C77] py-24 px-16 max-sm:px-4 rounded-2xl animate">
+        <div className="flex max-lg:flex-col" ref={divRef}>
           <div className="flex flex-col flex-1">
             <p className="text-[#fb503b] font-barlow text-[20px] font-semibold">
               Don't be shy
@@ -59,36 +59,36 @@ export default function Contact() {
               </button>
             </form>
           </div>
-          <div className="flex-1 flex flex-col mt-28 pl-20 gap-y-10">
-            <div className="flex items-center gap-x-10">
-              <div className="bg-[#6e7fd1] rounded-full w-[90px] h-[90px] flex justify-center items-center">
+          <div className="flex-1 flex flex-col mt-28 pl-20 max-lg:pl-0 gap-y-10">
+            <div className="flex items-center gap-x-10 max-sm:gap-x-3">
+              <div className="bg-[#6e7fd1] rounded-full w-[90px] h-[90px] flex justify-center items-center max-sm:w-[60px] max-sm:h-[60px]">
                 <FaLocationDot size={22} className="text-white" />
               </div>
               <div className="font-barlow">
                 <p className="text-white text-[20px] font-semibold">Address</p>
-                <p className="text-[#b7bac5] font-normal text-[18px]">
+                <p className="text-[#b7bac5] font-normal text-[18px] max-sm:text-[16px]">
                   Lagos, Nigeria.
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-x-10">
-              <div className="bg-[#6e7fd1] rounded-full w-[90px] h-[90px] flex justify-center items-center">
+            <div className="flex items-center gap-x-10 max-sm:gap-x-3">
+              <div className="bg-[#6e7fd1] rounded-full w-[90px] h-[90px] flex justify-center items-center max-sm:w-[60px] max-sm:h-[60px]">
                 <MdEmail size={22} className="text-white" />
               </div>
               <div className="font-barlow">
                 <p className="text-white text-[20px] font-semibold">Email</p>
-                <p className="text-[#b7bac5] font-normal text-[18px]">
+                <p className="text-[#b7bac5] font-normal text-[18px] max-sm:text-[16px]">
                   horlarmeydeileh50@gmail.com
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-x-10">
-              <div className="bg-[#6e7fd1] rounded-full w-[90px] h-[90px] flex justify-center items-center">
+            <div className="flex items-center gap-x-10 max-sm:gap-x-3">
+              <div className="bg-[#6e7fd1] rounded-full w-[90px] h-[90px] flex justify-center items-center max-sm:w-[60px] max-sm:h-[60px]">
                 <BiSolidPhone size={22} className="text-white" />
               </div>
               <div className="font-barlow">
                 <p className="text-white text-[20px] font-semibold">Phone</p>
-                <p className="text-[#b7bac5] font-normal text-[18px]">
+                <p className="text-[#b7bac5] font-normal text-[18px] max-sm:text-[16px]">
                   +2348035967716
                 </p>
               </div>
