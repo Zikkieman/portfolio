@@ -89,12 +89,6 @@ body {
 
 .containing-div {
   position: relative;
-  /* max-width: 500px;
-  width: 100%;
-  background: #ffffff;
-  margin: 0 15px;
-  padding: 10px 20px;
-  border-radius: 7px; */
 }
 
 .title-text {
@@ -237,3 +231,11 @@ body {
 }
 
 
+.swiper-pagination-bullet-active {
+  background-color: #fb503b;
+}
+
+.swiper-pagination-bullet {
+  width: 15px !important;
+  height: 15px;
+}

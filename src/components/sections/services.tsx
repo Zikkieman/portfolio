@@ -39,7 +39,7 @@ export default function Services() {
         className={`grid grid-cols-2 max-lg:grid-cols-1 mt-40  ${``}`}
         ref={divRef}
       >
-        <div className="bg-[#6e7fd1] hover:bg-[#fb503b] rounded-tl-2xl  max-lg:rounded-tr-2xl pt-28  px-20 pb-20">
+        <div className="bg-[#6e7fd1] hover:bg-[#fb503b] rounded-tl-2xl  max-lg:rounded-tr-2xl pt-28  px-20 pb-20 max-md:pt-10 max-md:px-3 max-md:pb-5">
           <img src={cpu} alt=" " className="w-[100px] mb-10" />
           <h3 className="text-[30px] font-barlow font-semibold text-white mb-10">
             Desktop Application
@@ -50,7 +50,7 @@ export default function Services() {
             brand.
           </p>
         </div>
-        <div className="bg-[#343c55] hover:bg-[#fb503b] rounded-tr-2xl max-lg:rounded-tr-none pt-28  px-20 pb-20">
+        <div className="bg-[#343c55] hover:bg-[#fb503b] rounded-tr-2xl max-lg:rounded-tr-none pt-28  px-20 pb-20 max-md:pt-10 max-md:px-3 max-md:pb-5">
           <img src={phone} alt=" " className="w-[100px] mb-10" />
           <h3 className="text-[30px] font-barlow font-semibold text-white mb-10">
             Desktop Application
@@ -61,7 +61,7 @@ export default function Services() {
             brand.
           </p>
         </div>
-        <div className="bg-[#142eb5] hover:bg-[#fb503b]  rounded-bl-2xl max-lg:rounded-bl-none pt-28  px-20 pb-20">
+        <div className="bg-[#142eb5] hover:bg-[#fb503b]  rounded-bl-2xl max-lg:rounded-bl-none pt-28  px-20 pb-20 max-md:pt-10 max-md:px-3 max-md:pb-5">
           <img src={web} alt="" className="w-[100px] mb-10" />
           <h3 className="text-[30px] font-barlow font-semibold text-white mb-10">
             Desktop Application
@@ -72,7 +72,7 @@ export default function Services() {
             brand.
           </p>
         </div>
-        <div className="bg-[#0489c8] hover:bg-[#fb503b] rounded-br-2xl max-lg:rounded-bl-2xl pt-28  px-20 pb-20">
+        <div className="bg-[#0489c8] hover:bg-[#fb503b] rounded-br-2xl max-lg:rounded-bl-2xl pt-28  px-20 pb-20 max-md:pt-10 max-md:px-3 max-md:pb-5">
           <img src={star} alt=" " className="w-[100px] mb-10" />
           <h3 className="text-[30px] font-barlow font-semibold text-white mb-10">
             Desktop Application
