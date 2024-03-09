@@ -123,21 +123,33 @@ export default function NavBar({ onScroll }: PropsType) {
       {openMenu && (
         <div className="">
           <div className="flex flex-col gap-y-5 text-xl font-medium border-t-[1px] py-5 mx-[-40px] px-10 menu-drawer dark:text-white">
-            <div
-              onClick={() => {
-                setOpenMenu(false), setIsMenuOpen(false);
-              }}
-              className="cursor-pointer"
-            >
-              <p className={``}>Home</p>
+            <div className="cursor-pointer">
+              <Link
+                to="hero"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                onClick={() => {
+                  setOpenMenu(false), setIsMenuOpen(false);
+                }}
+              >
+                <p>Home</p>
+              </Link>
             </div>
-            <div
-              onClick={() => {
-                setOpenMenu(false), setIsMenuOpen(false);
-              }}
-              className="cursor-pointer"
-            >
-              <p className={``}>About</p>
+            <div className="cursor-pointer">
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-600}
+                duration={500}
+                onClick={() => {
+                  setOpenMenu(false), setIsMenuOpen(false);
+                }}
+              >
+                About
+              </Link>
             </div>
             <div
               onClick={() => {
@@ -147,13 +159,19 @@ export default function NavBar({ onScroll }: PropsType) {
             >
               <p className={``}>Portfolio</p>
             </div>
-            <div
-              onClick={() => {
-                setOpenMenu(false), setIsMenuOpen(false);
-              }}
-              className="cursor-pointer"
-            >
-              <p className={``}>Service</p>
+            <div className="cursor-pointer">
+              <Link
+                to="service"
+                spy={true}
+                smooth={true}
+                offset={-250}
+                duration={500}
+                onClick={() => {
+                  setOpenMenu(false), setIsMenuOpen(false);
+                }}
+              >
+                Service
+              </Link>{" "}
             </div>
             <div
               onClick={() => {
@@ -161,7 +179,21 @@ export default function NavBar({ onScroll }: PropsType) {
               }}
               className="cursor-pointer"
             >
-              <p className={``}>Contact</p>
+              <p className={``}>
+                {" "}
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-150}
+                  duration={500}
+                  onClick={() => {
+                    setOpenMenu(false), setIsMenuOpen(false);
+                  }}
+                >
+                  Contact
+                </Link>
+              </p>
             </div>
             <div
               onClick={() => {
