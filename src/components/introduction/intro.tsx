@@ -49,6 +49,12 @@ export default function Intro() {
       className="flex text-white justify-between max-[900px]:flex-col-reverse max-[900px]:items-center"
       id="hero-section"
     >
+      <p className="absolute  text-[160px] max-[900px]:top-[150px] max-[900px]:text-[120px]  left-[-5px] my-name text-transparent ">
+        Ezekiel
+      </p>
+      <p className="absolute text-[160px] rotate-90 top-[550px] left-[-100px] max-[900px]:text-[120px] max-[900px]:top-[420px] text-transparent my-name">
+        Oladele
+      </p>
       <div className="mt-28 max-[900px]:mt-10 max-[900px]:text-center">
         <p className="text-[30px] font-medium max-[900px]:mb-2 max-[900px]:text-[22px] ">
           Hello I'm

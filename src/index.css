@@ -133,17 +133,17 @@ body {
 }
 
 .skill-per.react {
-  width: 85%;
+  width: 90%;
   animation-delay: 0.2s;
 }
 
 .skill-per.node {
-  width: 75%;
+  width: 80%;
   animation-delay: 0.2s;
 }
 
 .skill-per.native {
-  width: 80%;
+  width: 90%;
   /* animation-delay: 0s; */
 }
 
@@ -158,12 +158,12 @@ body {
 }
 
 .skill-per.typescript {
-  width: 75%;
+  width: 80%;
   animation-delay: 0.2s;
 }
 
 .skill-per.express {
-  width: 70%;
+  width: 80%;
   animation-delay: 0.2s;
 }
 
@@ -230,7 +230,6 @@ body {
   animation: fadeIn 0.5s forwards;
 }
 
-
 .swiper-pagination-bullet-active {
   background-color: #fb503b;
 }
@@ -238,4 +237,10 @@ body {
 .swiper-pagination-bullet {
   width: 15px !important;
   height: 15px;
+}
+
+.my-name {
+  -webkit-text-stroke: 1px #fff;
+  opacity: 0.1;
+  user-select: none;
 }

@@ -7,7 +7,7 @@ export default function Progress() {
         <span className="title dark:text-white ">React Native</span>
         <div className="skill-bar dark:bg-white">
           <span className="skill-per native">
-            <span className="tooltip dark:text-white">80%</span>
+            <span className="tooltip dark:text-white">90%</span>
           </span>
         </div>
       </div>
@@ -15,7 +15,7 @@ export default function Progress() {
         <span className="title dark:text-white">React.js</span>
         <div className="skill-bar dark:bg-white">
           <span className="skill-per react">
-            <span className="tooltip dark:text-white">85%</span>
+            <span className="tooltip dark:text-white">90%</span>
           </span>
         </div>
       </div>
@@ -39,7 +39,7 @@ export default function Progress() {
         <span className="title dark:text-white">Typescript</span>
         <div className="skill-bar dark:bg-white">
           <span className="skill-per typescript">
-            <span className="tooltip dark:text-white">75%</span>
+            <span className="tooltip dark:text-white">80%</span>
           </span>
         </div>
       </div>
@@ -47,7 +47,7 @@ export default function Progress() {
         <span className="title dark:text-white">Node.js</span>
         <div className="skill-bar dark:bg-white">
           <span className="skill-per node">
-            <span className="tooltip dark:text-white">75%</span>
+            <span className="tooltip dark:text-white">80%</span>
           </span>
         </div>
       </div>
@@ -55,7 +55,7 @@ export default function Progress() {
         <span className="title dark:text-white">Express.js</span>
         <div className="skill-bar dark:bg-white">
           <span className="skill-per express">
-            <span className="tooltip dark:text-white">70%</span>
+            <span className="tooltip dark:text-white">80%</span>
           </span>
         </div>
       </div>

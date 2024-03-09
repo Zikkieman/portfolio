@@ -28,6 +28,14 @@ export default function Contact() {
 
   return (
     <div>
+      <div className="mb-20 text-center font-barlow font-medium mt-20">
+        <p className="text-[40px] text-[#fb503b] font-semibold">Get In Touch</p>
+        <p className="text-[20px] max-w-[900px] inline-block mt-3 text-[#54545f] dark:text-[#aaaaba]">
+          I am actively seeking opportunities and roles that resonate with my
+          expertise. I look forward to sharing more about my experience and
+          ultimately providing value to your team.
+        </p>
+      </div>
       <div className="bg-[#0B1C77] py-24 px-16 max-sm:px-4 rounded-2xl animate">
         <div className="flex max-lg:flex-col" ref={divRef}>
           <div className="flex flex-col flex-1">
@@ -47,7 +55,7 @@ export default function Contact() {
                 className="py-4 px-5 font-barlow font-normal text-[18px] rounded-lg outline-none"
               />
               <textarea
-                className="py-4 px-5 font-barlow font-normal text-[18px] rounded-lg outline-none"
+                className="py-4 px-5 font-barlow font-normal text-[18px] rounded-lg outline-none resize-none"
                 placeholder="Message"
                 rows={8}
               ></textarea>
