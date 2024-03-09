@@ -4,6 +4,7 @@ import { changeMenuToggler } from "../../redux/features/toggleSlice";
 import { MenuButton } from "./menu";
 import { useState } from "react";
 import Theme from "../theme/theme";
+import { Link } from "react-scroll";
 
 interface PropsType {
   onScroll: boolean;
@@ -27,28 +28,74 @@ export default function NavBar({ onScroll }: PropsType) {
         } `}
       >
         <div className="flex-1 flex items-center">
-          <p className=" font-medium text-[40px] max-lg:text-[30px] max-lg:text-black dark:text-white">
-            EazyDev
-          </p>
+          <Link to="hero" spy={true} smooth={true} offset={-100} duration={500}>
+            <p className=" font-medium text-[40px] max-lg:text-[30px] max-lg:text-black dark:text-white">
+              EazyDev
+            </p>
+          </Link>
         </div>
 
         <div className="flex gap-x-8 justify-between items-center text-xl font-medium max-lg:hidden">
-          <div onClick={() => changeMenuHandler(1)} className="cursor-pointer">
-            <p className={`${toggleMenu === 1 && "text-[#fb503b]"}`}>Home</p>
+          <div className="cursor-pointer">
+            <Link
+              to="hero"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={() => changeMenuHandler(1)}
+            >
+              <p className={`${toggleMenu === 1 && "text-[#fb503b]"} `}>Home</p>
+            </Link>
           </div>
-          <div onClick={() => changeMenuHandler(2)} className="cursor-pointer">
-            <p className={`${toggleMenu === 2 && "text-[#fb503b]"}`}>About</p>
+          <div className="cursor-pointer">
+            <p className={`${toggleMenu === 2 && "text-[#fb503b]"}`}>
+              {" "}
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-600}
+                duration={500}
+                onClick={() => changeMenuHandler(2)}
+              >
+                About
+              </Link>
+            </p>
           </div>
           <div onClick={() => changeMenuHandler(3)} className="cursor-pointer">
             <p className={`${toggleMenu === 3 && "text-[#fb503b]"}`}>
               Portfolio
             </p>
           </div>
-          <div onClick={() => changeMenuHandler(4)} className="cursor-pointer">
-            <p className={`${toggleMenu === 4 && "text-[#fb503b]"}`}>Service</p>
+          <div className="cursor-pointer">
+            <p className={`${toggleMenu === 4 && "text-[#fb503b]"}`}>
+              {" "}
+              <Link
+                to="service"
+                spy={true}
+                smooth={true}
+                offset={-250}
+                duration={500}
+                onClick={() => changeMenuHandler(4)}
+              >
+                Service
+              </Link>{" "}
+            </p>
           </div>
-          <div onClick={() => changeMenuHandler(5)} className="cursor-pointer">
-            <p className={`${toggleMenu === 5 && "text-[#fb503b]"}`}>Contact</p>
+          <div className="cursor-pointer">
+            <p className={`${toggleMenu === 5 && "text-[#fb503b]"}`}>
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={500}
+                onClick={() => changeMenuHandler(5)}
+              >
+                Contact
+              </Link>
+            </p>
           </div>
           <div onClick={() => changeMenuHandler(6)} className="cursor-pointer">
             <p className={`${toggleMenu === 6 && "text-[#fb503b]"}`}>Blog</p>
