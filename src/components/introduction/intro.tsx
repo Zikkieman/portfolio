@@ -56,13 +56,13 @@ export default function Intro() {
         Oladele
       </p>
       <div className="mt-28 max-[900px]:mt-10 max-[900px]:text-center">
-        <p className="text-[30px] font-medium max-[900px]:mb-2 max-[900px]:text-[22px] ">
+        <p className="text-[30px] font-normal max-[900px]:mb-2 max-[900px]:text-[22px] ">
           Hello I'm
         </p>
         <p className="text-[65px] max-[1100px]:text-[50px] max-[900px]:text-[30px]  font-semibold mt-[-15px]">
           Ezekiel Oladele
         </p>
-        <p className="text-[22px] font-medium max-[900px]:mb-2 mb-5">
+        <p className="text-[24px] font-medium max-[900px]:mb-2 mb-5">
           Web and Mobile React Developer
         </p>
         <p className="text-[22px] font-normal font-sans inline-block max-w-[520px] max-[900px]:max-w-full  max-[900px]:text-[18px]">

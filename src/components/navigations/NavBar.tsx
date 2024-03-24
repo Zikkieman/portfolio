@@ -79,7 +79,7 @@ export default function NavBar({ onScroll }: PropsType) {
                 duration={500}
                 onClick={() => changeMenuHandler(4)}
               >
-                Service
+                Experience
               </Link>{" "}
             </p>
           </div>
@@ -170,7 +170,7 @@ export default function NavBar({ onScroll }: PropsType) {
                   setOpenMenu(false), setIsMenuOpen(false);
                 }}
               >
-                Service
+                Experience
               </Link>{" "}
             </div>
             <div

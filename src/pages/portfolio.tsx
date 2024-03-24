@@ -1,8 +1,9 @@
+import Experience from "../components/experience/experience";
 import About from "../components/sections/about";
 import Contact from "../components/sections/contact";
 import Footer from "../components/sections/footer";
 import Hero from "../components/sections/hero";
-import Services from "../components/sections/services";
+// import Services from "../components/sections/services";
 import SkillRating from "../components/sections/skillsRating";
 import Testimonial from "../components/sections/testimonial";
 import Values from "../components/sections/values";
@@ -23,10 +24,11 @@ export default function LandingPage() {
         <div>
           <SkillRating />
         </div>
-        <div id="service">
-          <Services />
+        <div id="service" className="">
+          <Experience />
+          {/* <Services /> */}
         </div>
-        <div className="relative ">
+        <div className="relative pt-[100px]">
           <Testimonial />
         </div>
         <div id="contact">

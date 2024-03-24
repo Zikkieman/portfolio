@@ -1,8 +1,6 @@
 export default function Progress() {
-
-
   return (
-    <div className="containing-div grid grid-cols-2 max-lg:grid-cols-1 gap-x-20 mt-20 font-barlow">
+    <div className="containing-div grid grid-cols-2 max-lg:grid-cols-1 gap-x-20 mt-10 font-barlow">
       <div className="skill-box ">
         <span className="title dark:text-white ">React Native</span>
         <div className="skill-bar dark:bg-white">

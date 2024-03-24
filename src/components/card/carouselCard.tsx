@@ -9,7 +9,7 @@ interface PropsType {
 
 export default function Card({ title, name, imgSrc, testimony }: PropsType) {
   return (
-    <div className="bg-white rounded-xl shadow-xl">
+    <div className="bg-white rounded-xl shadow-md">
       <div className=" px-6 max-lg:px-6 max-sm:px-4 py-10 rounded-lg flex justify-center flex-col items-center text-center  mt-3">
         <img src={quote} alt="" className="w-[50px] mb-8 text-[#fb503b]" />
         <p className="text-[#54545f] font-poppins text-[22px] font-normal max-w-[380px] mb-8 max-lg:text-[20px] max-[800px]:max-w-full inline-block">
