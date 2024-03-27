@@ -1,4 +1,3 @@
-import "react-vertical-timeline-component/style.min.css";
 import { FaReact } from "react-icons/fa";
 import { timeLineElement } from "../../constant/timeline";
 
