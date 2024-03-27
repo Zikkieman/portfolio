@@ -4,7 +4,6 @@ import Contact from "../components/sections/contact";
 import Footer from "../components/sections/footer";
 import Hero from "../components/sections/hero";
 import Portfolio from "../components/sections/portfolio";
-// import Services from "../components/sections/services";
 import SkillRating from "../components/sections/skillsRating";
 import Testimonial from "../components/sections/testimonial";
 import Values from "../components/sections/values";
@@ -29,8 +28,7 @@ export default function LandingPage() {
           <SkillRating />
         </div>
         <div id="service" className="">
-          <Experience defaultColor="bg-cyan-500" />
-          {/* <Services /> */}
+          <Experience />
         </div>
         <div className="relative pt-[100px]">
           <Testimonial />
