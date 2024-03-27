@@ -1,6 +1,3 @@
-import { useDispatch } from "react-redux";
-import { AppDispatch, useAppSelector } from "../../redux/store";
-import { changeMenuToggler } from "../../redux/features/toggleSlice";
 import { MenuButton } from "./menu";
 import { useState } from "react";
 import Theme from "../theme/theme";
@@ -12,13 +9,6 @@ interface PropsType {
 export default function NavBar({ onScroll }: PropsType) {
   const [openMenu, setOpenMenu] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = useAppSelector((state) => state.toggler.menu);
-  const dispatch = useDispatch<AppDispatch>();
-
-  const changeMenuHandler = (index: number) => {
-    dispatch(changeMenuToggler(index));
-  };
 
   return (
     <div className="">
@@ -43,7 +33,6 @@ export default function NavBar({ onScroll }: PropsType) {
               smooth={true}
               offset={-100}
               duration={500}
-              // onClick={() => changeMenuHandler(1)}
               activeStyle={{ color: "#fb503b" }}
             >
               <p>Home</p>
@@ -59,7 +48,6 @@ export default function NavBar({ onScroll }: PropsType) {
                 smooth={true}
                 offset={-600}
                 duration={500}
-                // onClick={() => changeMenuHandler(2)}
               >
                 About
               </Link>
@@ -77,7 +65,6 @@ export default function NavBar({ onScroll }: PropsType) {
                 smooth={true}
                 offset={-250}
                 duration={500}
-                // onClick={() => changeMenuHandler(4)}
                 activeStyle={{ color: "#fb503b" }}
               >
                 Experience
@@ -92,16 +79,13 @@ export default function NavBar({ onScroll }: PropsType) {
                 smooth={true}
                 offset={-150}
                 duration={500}
-                // onClick={() => changeMenuHandler(5)}
                 activeStyle={{ color: "#fb503b" }}
               >
                 Contact
               </Link>
             </p>
           </div>
-          {/* <div  className="cursor-pointer">
-            <p >Blog</p>
-          </div> */}
+
           <div className="bg-[#fb503b] py-2 px-5 rounded-full text-white">
             <p>Download CV</p>
           </div>
