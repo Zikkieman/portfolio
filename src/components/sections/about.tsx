@@ -5,13 +5,7 @@ import mainAbout from "../../assets/images/main-about.jpg";
 export default function About() {
   return (
     <div className="relative mb-40 ">
-      <div className="absolute max-w-[350px]   -mx-44 bottom-[-100px] rounded-xl  max-lg:hidden ">
-        {/* <img src={subAbout} alt="" className="rounded-xl max-w-full h-auto" /> */}
-      </div>
-
-      {/* <div className="bg-[#3B383F] w-fit p-5 absolute max-w-[390px] -mx-56  bottom-[0px] rounded-xl"> */}
-      {/* <img src={connect} alt="" className="w-[70px]" /> */}
-      {/* </div> */}
+      <div className="absolute max-w-[350px]   -mx-44 bottom-[-100px] rounded-xl  max-lg:hidden "></div>
 
       <div className="flex max-lg:flex-col ">
         <div className="flex-1">
@@ -21,13 +15,11 @@ export default function About() {
             className="rounded-xl h-full max-lg:w-full"
           />
         </div>
-        <div className="flex-1 pl-20 mt-5 max-xl:pl-0">
+        <div className="flex-1 pl-14 mt-5 max-lg:pl-0">
           <p className="font-barlow font-semibold text-[24px] text-[#FB503B] mb-6">
             I'm a Enthusiastic Web and Mobile Developer
           </p>
-          {/* <p className="font-barlow text-[35px] max-sm:text-[25px] font-semibold inline-block max-w-[400px] mb-10 dark:text-white ">
-            I Develop Application that Help People
-          </p> */}
+
           <p className=" font-poppins font-normal text-[#54545f] text-[18px] dark:text-[#AAAABA]">
             My career journey began with a fervent interest in software
             technology, driving me to pursue skill development. Over time, I
