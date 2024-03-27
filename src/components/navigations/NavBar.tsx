@@ -43,33 +43,33 @@ export default function NavBar({ onScroll }: PropsType) {
               smooth={true}
               offset={-100}
               duration={500}
-              onClick={() => changeMenuHandler(1)}
+              // onClick={() => changeMenuHandler(1)}
+              activeStyle={{ color: "#fb503b" }}
             >
-              <p className={`${toggleMenu === 1 && "text-[#fb503b]"} `}>Home</p>
+              <p>Home</p>
             </Link>
           </div>
           <div className="cursor-pointer">
-            <p className={`${toggleMenu === 2 && "text-[#fb503b]"}`}>
+            <p>
               {" "}
               <Link
                 to="about"
+                activeStyle={{ color: "#fb503b" }}
                 spy={true}
                 smooth={true}
                 offset={-600}
                 duration={500}
-                onClick={() => changeMenuHandler(2)}
+                // onClick={() => changeMenuHandler(2)}
               >
                 About
               </Link>
             </p>
           </div>
-          <div onClick={() => changeMenuHandler(3)} className="cursor-pointer">
-            <p className={`${toggleMenu === 3 && "text-[#fb503b]"}`}>
-              Portfolio
-            </p>
+          <div className="cursor-pointer">
+            <p>Portfolio</p>
           </div>
           <div className="cursor-pointer">
-            <p className={`${toggleMenu === 4 && "text-[#fb503b]"}`}>
+            <p>
               {" "}
               <Link
                 to="service"
@@ -77,29 +77,31 @@ export default function NavBar({ onScroll }: PropsType) {
                 smooth={true}
                 offset={-250}
                 duration={500}
-                onClick={() => changeMenuHandler(4)}
+                // onClick={() => changeMenuHandler(4)}
+                activeStyle={{ color: "#fb503b" }}
               >
                 Experience
               </Link>{" "}
             </p>
           </div>
           <div className="cursor-pointer">
-            <p className={`${toggleMenu === 5 && "text-[#fb503b]"}`}>
+            <p>
               <Link
                 to="contact"
                 spy={true}
                 smooth={true}
                 offset={-150}
                 duration={500}
-                onClick={() => changeMenuHandler(5)}
+                // onClick={() => changeMenuHandler(5)}
+                activeStyle={{ color: "#fb503b" }}
               >
                 Contact
               </Link>
             </p>
           </div>
-          <div onClick={() => changeMenuHandler(6)} className="cursor-pointer">
-            <p className={`${toggleMenu === 6 && "text-[#fb503b]"}`}>Blog</p>
-          </div>
+          {/* <div  className="cursor-pointer">
+            <p >Blog</p>
+          </div> */}
           <div className="bg-[#fb503b] py-2 px-5 rounded-full text-white">
             <p>Download CV</p>
           </div>

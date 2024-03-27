@@ -3,6 +3,7 @@ import About from "../components/sections/about";
 import Contact from "../components/sections/contact";
 import Footer from "../components/sections/footer";
 import Hero from "../components/sections/hero";
+import Portfolio from "../components/sections/portfolio";
 // import Services from "../components/sections/services";
 import SkillRating from "../components/sections/skillsRating";
 import Testimonial from "../components/sections/testimonial";
@@ -22,10 +23,13 @@ export default function LandingPage() {
           <About />
         </div>
         <div>
+          <Portfolio />
+        </div>
+        <div>
           <SkillRating />
         </div>
         <div id="service" className="">
-          <Experience />
+          <Experience defaultColor="bg-cyan-500" />
           {/* <Services /> */}
         </div>
         <div className="relative pt-[100px]">
